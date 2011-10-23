@@ -61,8 +61,8 @@ rule Objects
 
         for _i in [ FGristFiles $(<) ]
         {
-		local _oo = $(_i:B)$(SUFOBJ) ;
-		local _o = $(_oo:G=$(SOURCE_GRIST:E)) ;
+		local _b = $(_i:B)$(SUFOBJ) ;
+		local _o = $(_b:G=$(SOURCE_GRIST:E)) ;
                 Object $(_o) : $(_i) ;
                 Depends obj : $(_o) ;
         }
