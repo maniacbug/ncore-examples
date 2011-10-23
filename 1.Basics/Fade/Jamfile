@@ -1,0 +1,6 @@
+SubDir TOP 1.Basics Fade ;
+
+LOCATE_TARGET = out ;
+LOCATE_SOURCE = out ;
+
+Main $(SEARCH_SOURCE:B) : $(CORE_MODULES) $(INTERNAL_MODULES) [ GLOB $(SEARCH_SOURCE) : *.ino *.cpp ] $(EXTRAS_DIR)/shellmain.cpp ;

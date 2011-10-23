@@ -1,0 +1,19 @@
+To generate the Jamfiles for a group of examples...
+
+Steps
+
+1. Copy Jamfile.template into directory
+2. Replace #GROUP# and #SKETCH# tags
+3. Add SubInclude TOP GROUP SKETCH to top-level Jamfile using Jamfile.top.template
+
+e.g....
+
+sed s/#GROUP#/1.Basics/g;s/#SKETCH#/BareMinimum/g; Jamfile.template > 1.Basics/BareMinimum/Jamfile
+sed s/#GROUP#/1.Basics/g;s/#SKETCH#/BareMinimum/g; Jamfile.top.template >> Jamfile 
+
+Process for debugging
+
+1. Solve errors that are specific to 1.0 (changes needed to native core)
+2. Add forward declarations as needed
+3. Any other bugs in sketches
+4. -Werror
