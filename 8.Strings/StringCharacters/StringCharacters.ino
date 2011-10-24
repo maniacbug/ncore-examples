@@ -23,7 +23,7 @@ void loop() {
   
   // the reading's most significant digit is at position 15 in the reportString:
   char mostSignificantDigit = reportString.charAt(15);
-  Serial.println("Most significant digit of the sensor reading is: " + mostSignificantDigit);
+  Serial.println(String("Most significant digit of the sensor reading is: ") + mostSignificantDigit);
 
 // add blank space:
   Serial.println();
