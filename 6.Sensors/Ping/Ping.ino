@@ -26,6 +26,9 @@
 // of the sensor's output:
 const int pingPin = 7;
 
+long microsecondsToInches(long microseconds);
+long microsecondsToCentimeters(long microseconds);
+
 void setup() {
   // initialize serial communication:
   Serial.begin(9600);

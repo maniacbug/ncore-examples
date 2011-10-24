@@ -22,6 +22,8 @@
  
  */
 
+void noteOn(int cmd, int pitch, int velocity);
+
 void setup() {
   //  Set MIDI baud rate:
   Serial.begin(31250);

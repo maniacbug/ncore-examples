@@ -39,6 +39,7 @@ int sensorMin = 1023;  // minimum sensor value
 int sensorMax = 0;     // maximum sensor value
 int sensorValue = 0;         // the sensor value
 
+void calibrate(void);
 
 void setup() {
   // set the LED pins as outputs and the switch pin as input:

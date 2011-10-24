@@ -49,6 +49,9 @@ int pixels[8][8];
 int x = 5;
 int y = 5;
 
+void readSensors();
+void refreshScreen();
+
 void setup() {
   Serial.begin(9600);
   // initialize the I/O pins as outputs:

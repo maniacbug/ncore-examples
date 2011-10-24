@@ -16,4 +16,5 @@ Process for debugging
 1. Solve errors that are specific to 1.0 (changes needed to native core)
 2. Add forward declarations as needed
 3. Any other bugs in sketches
+	"index" as a global conflicts with native core
 4. -Werror

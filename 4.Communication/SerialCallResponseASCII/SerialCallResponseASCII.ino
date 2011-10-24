@@ -33,6 +33,8 @@ int secondSensor = 0;   // second analog sensor
 int thirdSensor = 0;    // digital sensor
 int inByte = 0;         // incoming serial byte
 
+void establishContact();
+
 void setup()
 {
   // start serial port at 9600 bps:
