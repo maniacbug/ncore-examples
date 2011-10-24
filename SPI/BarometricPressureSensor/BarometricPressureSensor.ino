@@ -37,6 +37,9 @@ const byte WRITE = 0b00000010;   // SCP1000's write command
 const int dataReadyPin = 6;
 const int chipSelectPin = 7;
 
+void writeRegister(byte thisRegister, byte thisValue);
+unsigned int readRegister(byte thisRegister, int bytesToRead );
+
 void setup() {
   Serial.begin(9600);
 

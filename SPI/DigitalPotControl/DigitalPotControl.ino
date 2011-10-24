@@ -30,6 +30,7 @@
 // inslude the SPI library:
 #include <SPI.h>
 
+int digitalPotWrite(int address, int value);
 
 // set pin 10 as the slave select for the digital pot:
 const int slaveSelectPin = 10;
