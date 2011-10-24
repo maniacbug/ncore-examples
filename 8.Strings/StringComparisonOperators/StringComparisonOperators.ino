@@ -57,7 +57,7 @@ void loop() {
   // a numeric string compared to the number it represents:
   stringOne = "1";
   int numberOne = 1;
-  if (stringOne == numberOne) {
+  if (stringOne == String(numberOne)) {
     Serial.println(stringOne + " = " + numberOne);
   }
 

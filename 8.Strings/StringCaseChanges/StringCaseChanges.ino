@@ -20,13 +20,13 @@ void loop() {
   // toUpperCase() changes all letters to upper case:
   String stringOne = "<html><head><body>";
   Serial.println(stringOne);
-  stringOne = (stringOne.toUpperCase());
+  stringOne.toUpperCase();
   Serial.println(stringOne);
   
  // toLowerCase() changes all letters to lower case:  
   String stringTwo = "</BODY></HTML>";
   Serial.println(stringTwo);
-  stringTwo = stringTwo.toLowerCase();
+  stringTwo.toLowerCase();
   Serial.println(stringTwo);
   
   

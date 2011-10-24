@@ -24,7 +24,7 @@ void loop() {
   Serial.println(stringOne.length());
 
   // trim the white space off the string:
-  stringOne = stringOne.trim();
+  stringOne.trim();
   Serial.print(stringOne);
   Serial.print("<--- end of trimmed string. Length: ");
   Serial.println(stringOne.length());
