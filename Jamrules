@@ -1,6 +1,8 @@
 CORE_DIR	= $(HOME)/Source/Arduino/hardware/native ;
+ARDUINO_DIR	= /opt/Arduino ;
 INTERNAL_DIR	= $(CORE_DIR)/internal ;
 EXTRAS_DIR	= $(CORE_DIR)/extras ;
+LIBRARY_DIR	= $(ARDUINO_DIR)/libraries ;
 
 HDRS		+= $(INTERNAL_DIR) $(CORE_DIR) ;
 DEFINES		+= NATIVE=1 ARDUINO=100 ;

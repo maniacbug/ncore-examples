@@ -1,4 +1,4 @@
-SubDir TOP #GROUP# #SKETCH# ;
+SubDir TOP Stepper stepper_speedControl ;
 
 LOCATE_TARGET = out ;
 LOCATE_SOURCE = out ;

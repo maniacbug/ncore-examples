@@ -61,3 +61,7 @@ SubInclude TOP EEPROM eeprom_read ;
 SubInclude TOP EEPROM eeprom_write ;
 SubInclude TOP SPI BarometricPressureSensor ;
 SubInclude TOP SPI DigitalPotControl ;
+SubInclude TOP Stepper MotorKnob ;
+SubInclude TOP Stepper stepper_oneRevolution ;
+SubInclude TOP Stepper stepper_oneStepAtATime ;
+SubInclude TOP Stepper stepper_speedControl ;
