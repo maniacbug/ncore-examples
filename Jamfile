@@ -59,3 +59,5 @@ SubInclude TOP 8.Strings StringToIntRGB ;
 SubInclude TOP EEPROM eeprom_clear ;
 SubInclude TOP EEPROM eeprom_read ;
 SubInclude TOP EEPROM eeprom_write ;
+SubInclude TOP SPI BarometricPressureSensor ;
+SubInclude TOP SPI DigitalPotControl ;
