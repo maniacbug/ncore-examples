@@ -37,7 +37,7 @@ void setup() {
 }
 
 void loop() {
-  int inChar;
+  int inChar = 0;
 
   // Read serial input:
   if (Serial.available() > 0) {

@@ -37,7 +37,7 @@ void loop() {
   stringOne = "<UL><LI>item<LI>item<LI>item</UL>";
   int firstListItem = stringOne.indexOf("<LI>");
   int secondListItem = stringOne.indexOf("item", firstListItem + 1 );
-  Serial.println("The index of the second list item in the string " + stringOne + " is " + secondClosingBracket);
+  Serial.println("The index of the second list item in the string " + stringOne + " is " + secondListItem);
 
   // lastIndexOf() gives you the last occurrence of a character or string:
   int lastOpeningBracket = stringOne.lastIndexOf('<');
