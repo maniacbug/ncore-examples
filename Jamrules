@@ -54,6 +54,7 @@ rule UserObject
   switch $(>:S)
   {
     case .ino : C++Ino $(<) : $(>) ;
+    case .pde : C++Ino $(<) : $(>) ;
   }
 }
 
